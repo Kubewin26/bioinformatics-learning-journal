@@ -36,3 +36,8 @@ Month 3: NGS, FASTQ, quality control, alignment, variant calling
 Month 4: Microbiome, 16S, QIIME 2
 Month 5: R, statistics, RNA-seq, DESeq2
 Month 6: Reproducibility, pipelines, capstone projects
+
+## Progress Log
+
+- Jul 20: Configured Git identity, learned three-tree architecture
+- Jul 21: Created local repo, made first commits
