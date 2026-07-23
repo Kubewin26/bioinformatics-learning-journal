@@ -41,3 +41,4 @@ Month 6: Reproducibility, pipelines, capstone projects
 
 - Jul 20: Configured Git identity, learned three-tree architecture
 - Jul 21: Created local repo, made first commits
+- Jul 22: Generated SSH key, connected to GitHub, pushed learning journal live
