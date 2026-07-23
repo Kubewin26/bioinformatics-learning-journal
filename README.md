@@ -9,7 +9,7 @@ visualise it, explain the result, and share the workflow reproducibly.
 
 ## Background
 
-I have a background in biology, biomedical sciences, and microbiology.
+I have a background in microbiology and public health.
 I am starting from zero coding experience.
 
 ## Week 1 — Bash and Linux Command Line (Jul 13–19)
