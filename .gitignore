@@ -1,0 +1,34 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Large bioinformatics output files (never commit raw data)
+*.bam
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
