@@ -56,6 +56,7 @@ bioinformatics-learning-journal/
 | Jul 21 | Local repo created, first 3 commits |
 | Jul 22 | SSH key authenticated, repo pushed live to GitHub |
 | Jul 23 | Markdown learned, professional README written |
+| Jul 24 | Created .gitignore, learned commit discipline |
 
 ---
 
