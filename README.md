@@ -57,6 +57,9 @@ bioinformatics-learning-journal/
 | Jul 22 | SSH key authenticated, repo pushed live to GitHub |
 | Jul 23 | Markdown learned, professional README written |
 | Jul 24 | Created .gitignore, learned commit discipline |
+| Jul 25 | Rest day — recovery after dense Week 2 learning |
+| Jul 26 | Oh My Git! branching game completed; branching and merging practised in real terminal |
+| Jul 27 | month-01-bash-foundations pushed to GitHub; Week 2 end-of-week quiz completed; Week 2 officially complete |
 
 ---
 
