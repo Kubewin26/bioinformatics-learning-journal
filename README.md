@@ -60,6 +60,8 @@ bioinformatics-learning-journal/
 | Jul 25 | Rest day — recovery after dense Week 2 learning |
 | Jul 26 | Oh My Git! branching game completed; branching and merging practised in real terminal |
 | Jul 27 | month-01-bash-foundations pushed to GitHub; Week 2 end-of-week quiz completed; Week 2 officially complete |
+| Jul 28 – Sep 4 | Family travel — away from laptop |
+| Sep 5 | Reactivation Day 1 — Bash and Git review, learning journal consolidated |
 
 ---
 
