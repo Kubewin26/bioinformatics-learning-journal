@@ -80,7 +80,7 @@ bioinformatics-learning-journal/
 
 ## 📬 About Me
 
-Postgraduate student · University of Hull · Microbiology background  
+ · Microbiology background (BSc)  . Public Health (MSc)
 Building toward PhD-level bioinformatics research competence.
 
 [GitHub Profile](https://github.com/Kubewin26)
