@@ -65,3 +65,19 @@ I was uncertain about what this command does, so here is the simple explanation:
 A lot of Git still feels uncertain and slightly overwhelming, but completing this refresher session and successfully working on an independent branch gave my confidence a real boost after being away for over a month. 
 
 I recognize that bioinformatics tools and version control cannot be mastered overnight or by passive reading. It requires repeated, iterative practice. By showing up daily, running warm-up drills, and writing commands until they become second nature, these tools will gradually move from my notes directly into my fingertips.
+
+## 🔧 Correction From Today's Review
+
+**The Three Trees are zones, not commands.**
+
+| Zone | What It Holds |
+|---|---|
+| Working Directory | Files as they exist on my computer right now — edited but unprotected |
+| Staging Area | Files after `git add` — selected and prepared for the next commit |
+| Repository (.git) | Files after `git commit` — permanently recorded snapshots |
+
+The commands move files between zones:
+- `git add` → Working Directory to Staging Area
+- `git commit` → Staging Area to Repository
+- `git push` → Repository to GitHub (remote)
+
