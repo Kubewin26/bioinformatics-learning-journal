@@ -30,9 +30,6 @@ After git commit:   nothing to commit — working tree clean
 - Keep it under 72 characters
 - The message should complete the sentence: "This commit will..."
 
-## What Surprised Me Today
-
-[Write something here in your own words]
 
 ## Commands Practised
 
