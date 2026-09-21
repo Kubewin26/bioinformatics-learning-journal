@@ -43,3 +43,23 @@ seq[6:12] # bases at positions 6,7,8,9,10,11
 ### .strip()
 
 line = line.strip() # removes \n and whitespace from both ends
+
+### Dictionaries
+
+my_dict = {"key1": "value1", "key2": "value2"}
+my_dict["key1"] # lookup: returns "value1"
+my_dict.keys() # all keys
+my_dict.values() # all values
+my_dict.items() # all key-value pairs for looping
+
+# Frequency counter pattern
+
+if key in dict:
+dict[key] += 1
+else:
+dict[key] = 1
+
+### String reversal
+
+seq[::-1] # reverses the entire string
+comp[::-1] # reverse complement (after complementing)
