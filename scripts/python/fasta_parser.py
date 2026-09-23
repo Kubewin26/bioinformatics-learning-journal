@@ -45,3 +45,43 @@ for seq_id, sequence in parsed.items():
     print(f"  Length: {len(sequence)} bp")
     print(f"  First 12 bases: {sequence[:12]}")
     print()
+
+# --- Combining FASTA Parser with QC Analysis ---
+
+def calculate_gc(sequence):
+    """Calculate GC percentage."""
+    if len(sequence) == 0:
+        return 0.0
+    g = sequence.count("G")
+    c = sequence.count("C")
+    return round((g + c) / len(sequence) * 100, 1)
+
+def classify_gc(gc):
+    """Classify GC content into biological ranges."""
+    if gc > 60.0:
+        return "HIGH_GC"
+    elif gc < 40.0:
+        return "LOW_GC"
+    else:
+        return "NORMAL"
+
+def flag_sequence(sequence, gc):
+    """Flag problematic biological sequences."""
+    if "N" in sequence:
+        return "FAIL — contains ambiguous bases (N)"
+    elif gc == 0.0:
+        return "FAIL — 0% GC content"
+    elif gc == 100.0:
+        return "FAIL — 100% GC content"
+    else:
+        return "PASS"
+
+print("\n=== FASTA Quality Control Report ===")
+print(f"{'ID':<12}\t{'Length':<8}\t{'GC%':<6}\t{'Category':<10}\t{'QC Status'}")
+print("-" * 65)
+
+for seq_id, seq in parsed.items():
+    gc = calculate_gc(seq)
+    category = classify_gc(gc)
+    status = flag_sequence(seq, gc)
+    print(f"{seq_id:<12}\t{len(seq)} bp\t{gc}%\t{category:<10}\t{status}")
