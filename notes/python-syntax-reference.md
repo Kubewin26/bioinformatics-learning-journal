@@ -63,3 +63,24 @@ dict[key] = 1
 
 seq[::-1] # reverses the entire string
 comp[::-1] # reverse complement (after complementing)
+
+### The 5-Stage Mental Model for Writing Scripts (The Kitchen Recipe)
+
+When given any bioinformatics problem, organize your thoughts and script into 5 stages:
+
+1. **Stage 1 (Tools)**: Define custom functions (`def`) to do specific small calculations (e.g., `calculate_gc()`).
+2. **Stage 2 (Prep)**: Define file paths and empty collection containers (`input_file`, `output_file`, `results = {}`).
+3. **Stage 3 (Open / Stove)**: Open file(s) with `with open(...) as f:` to stream lines without crashing RAM.
+4. **Stage 4 (Inspect / Cooking)**: Loop with `for line in f:`, clean with `.strip()`, make decisions with `if/elif/else`, and use your Stage 1 tools.
+5. **Stage 5 (Serve / Plating)**: Write results out to a file (`out.write()`) or print a summary table to the screen.
+
+### String Methods for Parsing
+
+line.startswith(">") # checks if line begins with a specific character/string
+line[1:] # slices off the first character (skips '>')
+line.split() # splits string by whitespace into a list of words
+line.split()[0] # grabs the first word (useful for isolating sequence IDs)
+
+### Multi-line Sequence Concatenation
+
+current_seq = current_seq + line # joins multiple lines of sequence into one unbroken string
