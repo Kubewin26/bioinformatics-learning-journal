@@ -1,0 +1,40 @@
+======================================================================
+         OPEN READING FRAME (ORF) ANALYSIS REPORT
+======================================================================
+
+Sequence ID:             NC_065922.1:c19844476-19822210
+Total Sequence Length:   22,267 bp
+Total ORFs Discovered:   283
+Frame 1 Count:           97
+Frame 2 Count:           91
+Frame 3 Count:           95
+
+----------------------------------------------------------------------
+CHAMPION (LONGEST) ORF DETAILS
+----------------------------------------------------------------------
+Frame:                   Frame 1
+Start Coordinate:        18,652
+End Coordinate:          19,965
+Nucleotide Length:       1,314 bp
+Amino Acid Length:       438 aa
+
+Nucleotide Sequence (first 120 bp):
+ATGCGCATAAAAGACGAGATACTCAAACTACTGGAGGAGTCGATATCGCGACCTTCGGACACTGTAAAGCAAGAGGTTTCGCGACGTTGTCAAGCGTTAGCTTCATTCATGGAAACTCTA...
+
+Translated Protein Sequence:
+MRIKDEILKLLEESISRPSDTVKQEVSRRCQALASFMETLMDEVTRTDLKLELPHENELTVSERDSVMLGEISPHHDYYDSKSSTETPPSYNQLNYNENLQRFFNSKPVTAPVEVDPMKNEQSYSISADARNTLSPVQCFEGSGGSGSSGNFTSGSHIHMSSITNTSNAGTGTSSGSAQLVTLTESLLNKHNDEMEKFMLKKHREARGRCGEKSKKATEKVMEYSGPGHGLKRGGSHSWEGDANKPKHSHTNVMDAQRDYVDHHNMATNSTSKAYGTLQTTLGETSFAGSYAAAGLSCTRNVNLWPPFSVGINTSHTSQTVAQSGFTPQHSIFPTFYYIPATAAAAAAAATQAQVKPNLADMPSTSAQALPLQYMTGVMYPHPSLFYTHPATAMMYQPMSFSNMANSLALSEQGNSASAFKTVSTYATYISGLAIYS*
+
+======================================================================
+TOP 10 LONGEST ORFs DISCOVERED
+======================================================================
+Rank	Frame	Start	End	Length(nt)	Length(aa)
+1	Frame 1	18652	19965	1314	438
+2	Frame 2	19337	19777	441	147
+3	Frame 1	18094	18525	432	144
+4	Frame 2	17684	18106	423	141
+5	Frame 2	19928	20269	342	114
+6	Frame 3	2604	2909	306	102
+7	Frame 1	19993	20292	300	100
+8	Frame 1	1918	2190	273	91
+9	Frame 1	10099	10344	246	82
+10	Frame 3	2985	3209	225	75
